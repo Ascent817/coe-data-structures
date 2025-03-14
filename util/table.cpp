@@ -4,6 +4,8 @@
 
 using namespace std;
 
+namespace util {
+
 /**
  * @brief Prints a formatted table to the given output stream.
  *
@@ -116,3 +118,4 @@ int printTable(vector<string> headers, vector<vector<string>> data, ostream &out
 
   return 0;
 }
+}  // namespace util

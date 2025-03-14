@@ -3,17 +3,11 @@
 // Instructor: Terry Hostetler
 // TODO: Email to Tyler Van Atta
 
-#include <cmath>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <string>
 #include <vector>
-
-#define fi first
-#define se second
-#define all(x) (x).begin(), (x).end()
-typedef long long ll;
 
 using namespace std;
 
@@ -117,7 +111,7 @@ int printTable(vector<string> headers, vector<vector<string>> data, ostream &out
 
   // Check if data is empty
   if (data.empty()) {
-    return 1;
+    return -1;
   }
 
   // Check if the number of columns in the header and data match
